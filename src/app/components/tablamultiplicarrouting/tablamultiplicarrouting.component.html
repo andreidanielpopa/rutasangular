@@ -1,0 +1,17 @@
+<div>
+    <h1>Tabla de multiplicar</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Operacion</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let res of resultados; let i = index">
+                    <td>{{num}} x {{i + 1}}</td>
+                    <td>{{res}}</td>
+                </tr>
+            </tbody>
+        </table>
+</div>

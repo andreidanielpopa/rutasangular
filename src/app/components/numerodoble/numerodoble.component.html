@@ -1,0 +1,14 @@
+<div>
+    <h1>Numero Doble</h1>
+    <div *ngIf="numero">
+        <h2>El doble de {{numero}} es {{doble}}</h2>
+    </div>
+    <div *ngIf="!numero">
+        <h2>No hemos recibido paramentro</h2>
+    </div>
+    <button (click)="goToMusica()">Musica</button>
+    <button (click)="redirect(23)">Doble</button>
+    <button (click)="redirect(3)">Doble</button>
+    <button (click)="redirect(74)">Doble</button>
+    <button (click)="redirect(15)">Doble</button>
+</div>
